@@ -45,6 +45,16 @@ img{
     gap: 40px;
 }
 
+.header-menu a{
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    padding: 16px 0px;
+    font-size: 1.125rem;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
 .header-menu a::after{
     content: "";
     position: absolute;
@@ -61,13 +71,6 @@ img{
     width: 100%;
 }
 
-.header-menu a{
-    position: relative;
-    color: #fff;
-    display: inline-block;
-    padding: 16px 0px;
-    font-size: 1.125rem;
-}
 
 @media (max-width:800px) {
     .header-menu{
@@ -130,6 +133,8 @@ img{
     margin-bottom: 32px;
     font-size: 4rem;
     line-height: 1.125;
+    font-family: "Poppins";
+    font-weight: 600;
 }
 
 .introducao h1 span{
@@ -141,6 +146,8 @@ img{
     font-size: 1.5rem;
     line-height: 1.5;
     color: #b2b2b2;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 .introducao a{
@@ -153,7 +160,8 @@ img{
     color: #320;
     font-size: 1.125rem;
     line-height: 1.33;
-    font-weight: bold;
+    font-family: "Poppins";
+    font-weight: 600;
 }
 
 .introducao a:hover{
